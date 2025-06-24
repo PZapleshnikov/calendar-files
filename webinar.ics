@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PasswordFree//Webinar//EN
+BEGIN:VEVENT
+UID:passwordfree-webinar-20250626T090000
+DTSTAMP:20250624T140000Z
+DTSTART:20250626T130000Z
+DTEND:20250626T140000Z
+SUMMARY:1000 Sessions and Zero Sales — Sound Familiar?
+DESCRIPTION:Free webinar by PasswordFree.\n- Why visitors leave without buying\n- How passwordless login boosts registrations\nBonus: 3 months free PasswordFree for attendees\nJoin Zoom: ZOOM_LINK_HERE
+LOCATION:Zoom (link in invitation)
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: PasswordFree webinar starts in 10 minutes!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
