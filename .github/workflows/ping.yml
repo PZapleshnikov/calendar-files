@@ -1,0 +1,13 @@
+name: Keep Bot Alive
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # каждые 5 минут
+  workflow_dispatch:        # возможность запустить вручную
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping bot
+        run: curl -s https://goalmate-bot.nicestone-09fd689e.polandcentral.azurecontainerapps.io/version || true
